@@ -17,8 +17,8 @@
     "@angular/core": "^8.0.0",
     "@angular/forms": "^8.0.0",
     "@angular/platform-browser": "^8.0.0",
-    "@angular/platform-browser-dynamic": "^8.0.0",
-    "@angular/router": "^8.0.0",
+    "@angular/platform-browser-dynamic": "^8.0.3",
+    "@angular/router": "^8.0.3",
     "bootstrap": "^4.3.1",
     "core-js": "^3.1.2",
     "ngx-bootstrap": "^5.0.0",
@@ -44,8 +44,8 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.0",
-    "ts-node": "~8.1.0",
-    "tslint": "~5.11.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
     "typescript": "3.4.5"
   }
 }
