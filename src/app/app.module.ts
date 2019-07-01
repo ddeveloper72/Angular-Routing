@@ -13,6 +13,7 @@ import { ServerComponent } from './servers/server/server.component';
 import { ServersService } from './servers/servers.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Routes, RouterModule } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
 { path: '', component: HomeComponent },
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
   { path: ':id', component: ServerComponent },
   { path: ':id/edit', component: EditServerComponent },
 ] },
+{ path: 'something', component: PageNotFoundComponent}
 ];
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ const appRoutes: Routes = [
     ServersComponent,
     UserComponent,
     EditServerComponent,
-    ServerComponent
+    ServerComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
